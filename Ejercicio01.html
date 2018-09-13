@@ -3,38 +3,78 @@
 		<meta charset="utf-8" /> 
 	<title> Página de prueba </title>
 		<style>
-		div {
+		#central {
+			border: 4px solid black;
 			background-color: green;
-			margin-left: 400px;
-			margin-right: 400px;
-			height: 600px;
+			margin-left: 30%;
+			margin-right: 3%;
+			height:90%;
+		}
+		#fondo {
+			background-color: #3383ad;
+
+
+		}
+
+		#izquierda{
+			background-color: #262a1b;
+					float:left;
+					margin-left: 10%;
+					height:90%;
+					width:18%;
+		}
+		#tablaMenu{
+			border:1px;
+		
 		}
 		</style>
 	</head>
 	<body>
-		<h1 align="center"> Página con etiquetas html </h1>
-		<div align="center">
-			<table border="1px">
-				<br/>
-				<br/>
-				<br/>
+		<div id="fondo">
 
+			<h1 align="center"> Página con etiquetas html </h1>
+			
+			<table id="tablaMenu" border="1px" width="40px">
 				<tr>
-					<th> Instrucción </th>
+					<th> Inicio </th>
+					<th> Información </th>
 					<th> Etiqueta </th>
-					<th> Variante</th>
-				<tr>
-					<th> Para poner texto en negrita: </th>
-					<th> &lt;b&gt;</th>
-					<th> &lt;strong&gt;</th>
+					<th> Contacto </th>
 				</tr>
-				<tr>
-					<th> Para poner texto en cursiva </th>
-					<th> &lt;i&gt;</th>
-					<th> &lt;em&gt;</th>
-				</tr>
-				
 			</table>
+			
+			<div>
+				<table>
+					
+				</table>
+			</div>
+			<div id="izquierda">
+				
+			</div>
+
+			<div id="central" align="center">
+				<table border="1px">
+					<br/>
+					<br/>
+					<br/>
+
+					<tr>
+						<th> Instrucción </th>
+						<th> Etiqueta </th>
+						<th> Variante</th>
+					<tr>
+						<th> Para poner texto en negrita: </th>
+						<th> &lt;b&gt;</th>
+						<th> &lt;strong&gt;</th>
+					</tr>
+					<tr>
+						<th> Para poner texto en cursiva </th>
+						<th> &lt;i&gt;</th>
+						<th> &lt;em&gt;</th>
+					</tr>
+				
+				</table>
+			</div>
 		</div>
 	</body>
 </html>
