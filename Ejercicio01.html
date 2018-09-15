@@ -5,10 +5,18 @@
 		<style>
 		#central {
 			border: 4px solid black;
-			background-color: green;
+			background-color:#224e18;
 			margin-left: 30%;
 			margin-right: 3%;
-			height:90%;
+			height:70%;
+		}
+		#tablon{
+			border: 4px solid black;
+			background-color:#c3343b;
+			float:top;
+			margin-left: 30%;
+			margin-right: 3%;
+			height: 25%;
 		}
 		#fondo {
 			background-color: #3383ad;
@@ -17,15 +25,20 @@
 		}
 
 		#izquierda{
-			background-color: #262a1b;
-					float:left;
-					margin-left: 10%;
-					height:90%;
-					width:18%;
+			background-color: black;
+			float:left;
+			margin-left: 10%;
+			height:95%;
+			width:18%;
+			
 		}
 		#tablaMenu{
-			border:1px;
-		
+		height: 10%;
+		width: 100%;
+		background-color:#fbc405
+			}
+		#form{
+			color:red;
 		}
 		</style>
 	</head>
@@ -42,26 +55,78 @@
 					<th> Contacto </th>
 				</tr>
 			</table>
-			
+			<br/>
 			<div>
 				<table>
 					
 				</table>
 			</div>
 			<div id="izquierda">
-				
+				<form style="color: red">
+					<fieldset >
+						<legend>Iniciar sesión</legend>
+						Correo: <input type="text">
+						Contraseña <input type="password" >
+					</fieldset>
+					<br>
+					<fieldset >
+							<legend>Contesta algunas preguntas</legend>
+							<form action="/action_page.php">
+								<p>Introduce tu género:</p>
+								<label for="Hombre">Hombre</label>
+								<input type="radio" name="genero" id="hombre" value="hombre"><br>
+								<label for="Mujer">Mujer</label>
+								<input type="radio" name="genero" id="mujer" value="mujer"><br>
+								<label for="Otro">Otro</label>
+								<input type="radio" name="genero" id="otro" value="otro"><br><br>
+
+								<p>Elige tu preferido:</p>
+								<select>
+									
+										<option value="volvo">HTML</option>
+										<option value="saab">CSS</option>
+										<option value="mercedes">Java-Script</option>
+								</select> 
+								<p>Selecciona si has cursado algún módulo html y/o css</p>
+								
+								<input type="checkbox">
+
+
+								<input type="button" value="Enviar">
+							  </form> 
+						</fieldset>
+						
+				</form>
+				<img style="margin:3%;width:95%;height:30%;" src="https://codigofacilito.com/system/articles/covers/000/000/043/original/html.jpg?1444827874">
 			</div>
 
+			<div id="tablon">
+				<h1 align="center">
+					¡NOTICIAS!
+				</h1>
+				<pre align="center" style="text-align:left;margin-left:8%">
+					Este es el tablón de noticias, aquí se publican todas las novedades.
+				</pre>
+			</div>
+			<br/>
 			<div id="central" align="center">
-				<table border="1px">
+				
 					<br/>
+					<br/>
+					<p>
+						Esta es una <b>pagina web</b> con información sobre como usar html
+						 y algunas <i>etiquetas.</i> Aquí hay un <span style="color:yellow"> tabla </span>con varias etiquetas html:
+					</p>
+					<hr>
 					<br/>
 					<br/>
 
+					<table border="1px">
 					<tr>
 						<th> Instrucción </th>
 						<th> Etiqueta </th>
 						<th> Variante</th>
+					</tr>
 					<tr>
 						<th> Para poner texto en negrita: </th>
 						<th> &lt;b&gt;</th>
@@ -74,6 +139,17 @@
 					</tr>
 				
 				</table>
+
+				<p>
+					Páginas web recomendadas sobre html
+				</p>
+				<ul>
+						<li> <a href="https://www.w3schools.com">W3Schools</a> </li>
+						<li><a href="https://developer.mozilla.org/es/docs/Web/HTML">MDN</a></li>
+						<li><a href="https://www.uv.es/jac/guia/index.html"> Universidad de Valencia</a></li>
+					  </ul> 
+
+					  <iframe width="300" height="200" src="https://www.youtube.com/embed/Ch1GG4xM8nw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 		</div>
 	</body>
