@@ -1,0 +1,61 @@
+div{
+    border: solid 1px;
+    border-color: #69a0f3;
+    text-align: center;
+    width: 27%;
+    margin: auto;
+    
+}
+
+table{
+    margin-left: 5%;
+    width: 90%;
+    text-align: left;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+#encabezado{
+    background-color: #69a0f3;
+    width: 95%;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 20px;   
+
+}
+#info{
+    background-color: #69a0f3;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 4%;
+    font-weight: bold;
+    font-size: 17px; 
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+.italic{
+    font-style: italic;
+}
+
+td{
+    padding-left: 30px;
+}
+
+.tablaArriba{
+    padding-left: 70px;
+}
+
+#final{
+   margin-left: 10px;
+    text-align: left;   
+}
