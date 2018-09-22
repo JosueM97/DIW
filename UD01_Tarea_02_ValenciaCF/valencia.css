@@ -3,6 +3,7 @@ div{
     border-bottom: solid 1px;
     border-color: gray;
     text-align: center;
+    font-size: 16px;
     
 }
 
@@ -20,6 +21,7 @@ table{
     width: 2000px;
     height: 150px;;
     
+    
 }
 
 #juventus{
@@ -30,7 +32,7 @@ table{
     height: 150px;;
 }
 
-pre{
+.numeros{
     
     display: inline;
     font-size: 60px;
@@ -46,22 +48,12 @@ pre{
     height: 120px;
 }
 
-#blink{
-    
+.cambioColor{
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
 }
-#blink:hover{
+.cambioColor:hover{
     color: #f26213;
-    opacity: 1;
- -webkit-animation: flash 1s;
- animation: flash 1s;
 }
 
-
-@-webkit-keyframes flash {
-    0% { opacity: .3; }
-    100% { opacity: 1; }
-   }
-   @keyframes flash {
-    0% { opacity: .3; }
-    100% { opacity: 1; }
-   }
