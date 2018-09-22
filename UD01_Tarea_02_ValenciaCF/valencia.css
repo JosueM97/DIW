@@ -1,0 +1,67 @@
+div{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: gray;
+    text-align: center;
+    
+}
+
+table{
+
+}
+
+
+
+#valencia{
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+    border-right: solid 1px;
+    width: 2000px;
+    height: 150px;;
+    
+}
+
+#juventus{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+    width: 2000px;
+    height: 150px;;
+}
+
+pre{
+    
+    display: inline;
+    font-size: 60px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#goles{
+    font-size: 13px;
+}
+
+#escudo{
+    
+    height: 120px;
+}
+
+#blink{
+    
+}
+#blink:hover{
+    color: #f26213;
+    opacity: 1;
+ -webkit-animation: flash 1s;
+ animation: flash 1s;
+}
+
+
+@-webkit-keyframes flash {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+   }
+   @keyframes flash {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+   }
