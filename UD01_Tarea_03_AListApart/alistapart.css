@@ -1,0 +1,32 @@
+div{
+    width: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+}
+
+p{
+    line-height: 30px;
+}
+
+h3{
+    color: blue;
+}
+
+.includes{
+font-weight: bold;
+border-top: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border-top: solid 1px;
+    font-style: italic;
+}
+
+.numeros{
+    text-align: left;
+    padding-left: 40px;
+}
