@@ -1,0 +1,55 @@
+#divGrande{
+    border: solid 10px;
+    margin: auto;
+    width: 68%;
+    border-color: #164364;
+    border-radius: 15px;
+}
+h2{
+    color: #164364;
+}
+hr{
+    color:grey;
+}
+
+button{
+    background: none;
+    border: none;
+    
+}
+
+p{
+    line-height: 30px;
+}
+
+#aceptar{
+    width: 300px;
+}
+
+#desarrollar{
+    width: 300px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+#parteArriba{
+    padding-left: 20px;
+    padding-right: 15px;
+}
+#parteAbajo{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 90px;
+
+}
+#conf{
+    float: right;
+    text-decoration: none;
+}
+#politica{
+    padding-left: 30px;
+    padding-top: 60px;
+    text-decoration: none;
+    vertical-align: middle;
+}
