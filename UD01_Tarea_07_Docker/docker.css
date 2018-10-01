@@ -1,0 +1,48 @@
+#divGrande{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: gray;
+    margin: auto;
+    width: 1000px;
+    height: 550px;;
+}
+
+#divImagen{
+    padding-top: 50px;
+    width: 10%;
+    height: 60%;
+    height: 500px;
+}
+
+#divTexto{
+    font-family: Arial;
+    margin-left: 250px;
+    width: 900px;
+    position: fixed;
+    top: 5%;
+    left: 15%;
+
+}
+
+p{
+    line-height: 30px;
+}
+
+h2{
+    color: #00adf0;
+}
+
+#tags{
+    font-size: 11px;
+    padding-left: 40px;
+}
+
+#continue{
+    float: right;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #58cdf4;
+}
