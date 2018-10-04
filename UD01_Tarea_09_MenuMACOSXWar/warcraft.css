@@ -12,13 +12,13 @@ li{
 }
 
 img{
-    width: 10%;
+    width: 100px;
     transition: width 1s;
 
 }
 
 img:hover{
-    width: 15%;
+    width: 150px;
 }
 
 .boton .oculto{
@@ -27,4 +27,11 @@ img:hover{
 
 .boton:hover .oculto{
     visibility: visible;
+}
+
+div{
+    float: left;
+    margin-right: 70px;
+    width: 100px;
+    background-color: red;
 }
