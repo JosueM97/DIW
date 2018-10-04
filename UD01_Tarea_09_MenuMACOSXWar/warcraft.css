@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    margin-left: 350px;
+    margin-top: 200px;
+
+ 
+}
+
+li{
+    display: inline;
+
+}
+
+img{
+    width: 10%;
+    transition: width 1s;
+
+}
+
+img:hover{
+    width: 15%;
+}
+
+.boton .oculto{
+    visibility: hidden;
+}
+
+.boton:hover .oculto{
+    visibility: visible;
+}
