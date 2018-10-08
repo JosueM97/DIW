@@ -1,0 +1,42 @@
+
+#fondo{
+    background-color: gray;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-left: 3%;
+    height: 70%;
+    padding-bottom: 2%;
+}
+
+#email{
+margin-left: 6%;
+}
+
+#password:focus{
+    font-size: 200%;
+}
+
+#email:focus{
+    font-size: 200%;
+}
+
+#description:focus{
+    font-size: 200%;
+}
+
+#iniciar{
+    padding-left: 40%;
+}
+
+label{
+}
+
+#email:valid{
+    color: green;
+}
+
+#description:valid{
+    color: green;
+}
