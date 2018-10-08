@@ -9,6 +9,7 @@ ul{
 li{
     display: inline;
 
+
 }
 
 img{
@@ -31,7 +32,7 @@ img:hover{
 
 div{
     float: left;
-    margin-right: 70px;
+    margin-right: 60px;
     width: 100px;
-    background-color: red;
+
 }
