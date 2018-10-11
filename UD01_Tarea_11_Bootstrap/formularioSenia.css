@@ -1,0 +1,46 @@
+#divGrande{
+   
+    height: 300%;
+}
+
+h2{
+    padding-top: 2%;
+    margin-left: 30%;
+}
+
+form{
+    height: 100%;
+}
+
+#conselleria{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+#senia{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+table{
+    margin-left: 12%;
+}
+
+td{
+padding-bottom: 2%;
+padding-right: 10%;
+text-align: center;
+}
+
+input{
+    width: 250px;
+
+}
+
+.campos{
+    float: left;
+    margin-left: 4%;
+}
+

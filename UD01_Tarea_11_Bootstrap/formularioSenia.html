@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>I.E.S La Senia</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="formularioSenia.css">
+
+    </head>
+    <body>
+        <div id="divGrande">
+            <img id="conselleria" src="conselleria.jpg">
+            
+            <img id="senia" src="lasenia.png">
+            <h2>COMUNICACIÓ DE MESURES CORRECTORES</h2>
+            <form>
+                
+                <div class="campos">
+                <label>ALUMNE/A</label>
+                
+                <input id="alumne" name="alumne" placeholder="Nom de l'alumne" pattern="[a-zA-Z ]{4,255}">
+                </div>
+                
+                <div class="campos">
+                <label>GRUP</label>
+                
+                <input id="grup" name="grup" placeholder="Grup de l'alumne" pattern="[a-zA-Z0-9 ]{4,255}">
+                </div>
+
+                <div class="campos">
+                <label>PROFESSOR/A</label>
+                
+                <input id="professor" name="professor" placeholder="Nom del professor" pattern="[a-zA-Z ]{4,255}">
+                </div>
+                
+                <div class="campos">
+                <label>Horari d'atenció</label>
+               
+                <input id="horari" name="horari" placeholder="Horari" pattern="[a-zA-Z0-9: ]{4,255}">
+                </div>
+
+                
+                <br/>
+
+                
+                <div class="campos">
+                <label>Data de l'incident</label>
+                
+                <input id="data" name="data" placeholder="Data de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+                </div>
+                
+                <div class="campos">
+                <label>Hora</label>
+                
+                <input id="hora" name="hora" placeholder="Hora de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+                </div>
+                
+                <div class="campos">
+                <label>Lloc</label>
+                
+                <input id="lloc" name="lloc" placeholder="Lloc de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
