@@ -18,53 +18,75 @@
             
             <img id="senia" src="lasenia.png">
             <h2>COMUNICACIÓ DE MESURES CORRECTORES</h2>
+            <br/>
+            <br/>
             <form>
                 
-                <div class="campos">
+                <div id="alumne">
                 <label>ALUMNE/A</label>
                 
-                <input id="alumne" name="alumne" placeholder="Nom de l'alumne" pattern="[a-zA-Z ]{4,255}">
+                <input placeholder="Nom de l'alumne" pattern="[a-zA-Z ]{4,255}">
                 </div>
                 
-                <div class="campos">
+                <div id="grup">
                 <label>GRUP</label>
                 
-                <input id="grup" name="grup" placeholder="Grup de l'alumne" pattern="[a-zA-Z0-9 ]{4,255}">
+                <input placeholder="Grup de l'alumne" pattern="[a-zA-Z0-9 ]{4,255}">
                 </div>
 
-                <div class="campos">
+                <div id="professor">
                 <label>PROFESSOR/A</label>
                 
-                <input id="professor" name="professor" placeholder="Nom del professor" pattern="[a-zA-Z ]{4,255}">
+                <input placeholder="Nom del professor" pattern="[a-zA-Z ]{4,255}">
                 </div>
                 
-                <div class="campos">
+                <div id="horari">
                 <label>Horari d'atenció</label>
                
-                <input id="horari" name="horari" placeholder="Horari" pattern="[a-zA-Z0-9: ]{4,255}">
+                <input placeholder="Horari" pattern="[a-zA-Z0-9: ]{4,255}">
                 </div>
 
-                
                 <br/>
-
+                <br/>
+                <br/>
                 
-                <div class="campos">
+                <div id="data">
                 <label>Data de l'incident</label>
                 
-                <input id="data" name="data" placeholder="Data de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+                <input placeholder="Data de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
                 </div>
                 
-                <div class="campos">
+                <div id="hora">
                 <label>Hora</label>
                 
-                <input id="hora" name="hora" placeholder="Hora de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+                <input placeholder="Hora de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
                 </div>
                 
-                <div class="campos">
+                <div id="lloc">
                 <label>Lloc</label>
                 
-                <input id="lloc" name="lloc" placeholder="Lloc de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+                <input placeholder="Lloc de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
                 </div>
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div id="mesura">
+                <p> En aplicació de l'article 37 del decret 39/08 sobre drets i deures, es comunica al pare/marede l'alumne la imposició de la següent mesura correctora:</p>
+
+                <input type="checkbox"> Compareixença davant el cap d'estudis/director <br/>
+                <input type="checkbox"> Retirada d'aparells electrònics (1) <br/>
+                <input type="checkbox"> Privació del temps de recreació els dies: <input type="text"><br/>
+                <input type="checkbox"> Realització de les següents tasques educadores: <input type="text"> els dies <input type="text"> i amb l'horari <input type="text"><br/>
+                <input type="checkbox"> Suspensió del det a participar en activitats extraescolars i complementàries des de <input type="text">
+                fins a <input type="text"> (2) <br/>
+
+                <p>Descripció de l'incident:</p>
+                <textarea rows="4" cols="50"></textarea>
+
+                </div>
+
             </form>
         </div>
     </body>

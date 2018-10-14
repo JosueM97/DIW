@@ -34,13 +34,40 @@ padding-right: 10%;
 text-align: center;
 }
 
-input{
-    width: 250px;
-
-}
 
 .campos{
     float: left;
     margin-left: 4%;
 }
 
+#alumne{
+    float: left;
+    margin-left: 10%
+}
+#grup{
+    float: left;
+    margin-left: 3%
+}
+#professor{
+    float: left;
+    margin-left: 3%
+}
+#horari{
+    float: left;
+    margin-left: 3%
+}
+#data{
+    float: left;
+    margin-left: 8%;
+}
+#hora{
+    float: left;
+    margin-left: 3.5%;
+}
+#lloc{
+    float: left;
+    margin-left: 8%;
+}
+#mesura{
+    margin-left: 8%;
+}
