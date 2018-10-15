@@ -68,6 +68,17 @@ text-align: center;
     float: left;
     margin-left: 8%;
 }
-#mesura{
+.mesura{
     margin-left: 8%;
+}
+
+hr{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#subir{
+    float: right;
+    margin-right: 8%;
+    margin-bottom: 2%;
 }
