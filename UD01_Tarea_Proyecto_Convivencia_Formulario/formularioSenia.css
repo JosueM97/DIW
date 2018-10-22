@@ -5,7 +5,7 @@
 
 h2{
     padding-top: 2%;
-    margin-left: 30%;
+    margin-left: 34%;
 }
 
 form{
@@ -42,31 +42,31 @@ text-align: center;
 
 #alumne{
     float: left;
-    margin-left: 10%
+    margin-left: 10%;
 }
 #grup{
     float: left;
-    margin-left: 3%
+    margin-left: 3%;
 }
 #professor{
     float: left;
-    margin-left: 3%
+    margin-left: 3%;
 }
 #horari{
     float: left;
-    margin-left: 3%
+    margin-left: 3%;
 }
 #data{
     float: left;
-    margin-left: 8%;
+    margin-left: 13%;
 }
 #hora{
     float: left;
-    margin-left: 3.5%;
+    margin-left: 4%;
 }
 #lloc{
     float: left;
-    margin-left: 8%;
+    margin-left: 8.5%;
 }
 .mesura{
     margin-left: 8%;
@@ -81,4 +81,27 @@ hr{
     float: right;
     margin-right: 8%;
     margin-bottom: 2%;
+}
+
+#enviar{
+    margin-left: 50%;
+}
+
+
+#tipoFormulario{
+    position: relative;
+    left: 35%;
+}
+
+#lleu{
+    position: relative;
+    left: 40%;
+}
+#sereu{
+    position: relative;
+    left: 43%;
+}
+
+#formulario1{
+    visibility: hidden;
 }
