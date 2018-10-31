@@ -46,7 +46,7 @@ text-align: center;
 }
 #grup{
     float: left;
-    margin-left: 3%;
+    margin-left: 6.5%;
 }
 #professor{
     float: left;
@@ -54,7 +54,7 @@ text-align: center;
 }
 #horari{
     float: left;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 #data{
     float: left;
@@ -62,7 +62,7 @@ text-align: center;
 }
 #hora{
     float: left;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 #lloc{
     float: left;
@@ -97,11 +97,26 @@ hr{
     position: relative;
     left: 40%;
 }
-#sereu{
+#greu{
     position: relative;
     left: 43%;
 }
 
-#formulario1{
+#formulario1,#formulario2{
     visibility: hidden;
+}
+
+#descripcio{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#descripcio p{
+    margin-left: 14%;
+}
+
+#formulario2{
+    position: absolute;
+    top: 110%;
+    z-index: 5;
 }

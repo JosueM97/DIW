@@ -1,164 +1,227 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>I.E.S La Senia</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="formularioSenia.js"></script>
-        <link rel="stylesheet" href="formularioSenia.css">
 
-    </head>
-    <body>
-        <div id="divGrande">
-            <img id="conselleria" src="conselleria.jpg">
-            
-            <img id="senia" src="lasenia.png">
-            <h2 id="arriba">FORMULARI D'INCIDÈNCIES</h2>
-            <br/>
-            <br/>
-            <form onsubmit="return onSubmit(this)" >
-                
-                <div id="alumne">
+<head>
+    <meta charset="utf-8" />
+    <title>I.E.S La Senia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="formularioSenia.js"></script>
+    <link rel="stylesheet" href="formularioSenia.css">
+
+</head>
+
+<body>
+    <div id="divGrande">
+        <img id="conselleria" src="conselleria.jpg">
+
+        <img id="senia" src="lasenia.png">
+        <h2 id="arriba">FORMULARI D'INCIDÈNCIES</h2>
+        <br />
+        <br />
+        <form onsubmit="return onSubmit(this)">
+
+            <div id="alumne">
                 <label>ALUMNE/A</label>
-                
-                <input placeholder="Nom de l'alumne" pattern="[a-zA-Z ]{4,255}">
-                </div>
-                
-                <div id="grup">
+
+                <input name="nombreAlumno" placeholder="Nom de l'alumne" pattern="[a-zA-Z ]{4,255}">
+            </div>
+
+            <div id="grup">
                 <label>GRUP</label>
-                
+
                 <select type="0">
-                    <option value="0">--</option> 
-                    <option value="1">E-11</option> 
+                    <option value="0">--</option>
+                    <option value="1">E-11</option>
                     <option value="1">E-12</option>
-                    <option value="1">E-13</option> 
-                    <option value="1">E-14</option> 
-                    <option value="1">E-15</option> 
-                     
-                   
-                 </select>
-                </div>
+                    <option value="1">E-13</option>
+                    <option value="1">E-14</option>
+                    <option value="1">E-15</option>
 
-                <div id="professor">
+
+                </select>
+            </div>
+
+            <div id="professor">
                 <label>PROFESSOR/A</label>
-                
-                
-                <input placeholder="Nom del professor" pattern="[a-zA-Z ]{4,255}">
-                </div>
-                
-                <div id="horari">
-                <label>Horari d'atenció</label>
-               
-                <input placeholder="Horari" pattern="[a-zA-Z0-9: ]{4,255}">
-                </div>
 
-                <br/>
-                <br/>
-                <br/>
-                
-                <div id="data">
+
+                <input name="nombreProfesor" placeholder="Nom del professor" pattern="[a-zA-Z ]{4,255}">
+            </div>
+
+            <div id="horari">
+                <label>Horari d'atenció</label>
+
+                <input name="horario" placeholder="Horari" pattern="[a-zA-Z0-9: ]{4,255}">
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <div id="data">
                 <label>Data de l'incident</label>
-                
-                <input type="date" pattern="[a-zA-Z0-9: ]{4,255}">
-                </div>
-                
-                <div id="hora">
+
+                <input name="fecha" type="date" pattern="[a-zA-Z0-9: ]{4,255}">
+            </div>
+
+            <div id="hora">
                 <label>Hora de l'incident</label>
-                
-                <input type="time"  pattern="[a-zA-Z0-9: ]{4,255}">
-                </div>
-                
-                <div id="lloc">
+
+                <input name="horaAccidente" type="time" pattern="[a-zA-Z0-9: ]{4,255}">
+            </div>
+
+            <div id="lloc">
                 <label>Lloc</label>
-                
-                <input placeholder="Lloc de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
-                </div>
-            </form>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <h3 id="tipoFormulario">Seleccione el tipe de formulari</h3>
-                <input id="lleu" type="button" value="LLEU" onclick="mostrarLleu()">
-                <input id="sereu" type="button" value="SEREU" onclick="ocultarLleu()">
-                <hr/>
-                <br/>
-                <br/>
-            
+
+                <input name= "lugarAccidente" placeholder="Lloc de l'incident" pattern="[a-zA-Z0-9: ]{4,255}">
+            </div>
+
+            <br />
+            <br />
+            <div id="descripcio">
+                <p>Descripció de l'incident:</p>
+                <textarea name= "descripcion" rows="4" cols="50"></textarea>
+            </div>
+            <br />
+            <br />
+            <h3 id="tipoFormulario">Seleccione el tipe de formulari</h3>
+            <input id="lleu" type="button" value="LLEU" onclick="mostrarLleu()">
+            <input id="greu" type="button" value="GREU" onclick="mostrarGreu()">
+            <hr />
+            <br />
+            <br />
+
             <div id="formulario1">
                 <div class="mesura">
-                <p> En aplicació de l'article 37 del decret 39/08 sobre drets i deures, es comunica al pare/marede l'alumne la imposició de la següent mesura correctora:</p>
+                    <p> En aplicació de l'article 37 del decret 39/08 sobre drets i deures, es comunica al pare/marede
+                        l'alumne la imposició de la següent mesura correctora:</p>
 
-                <input type="checkbox"> Compareixença davant el cap d'estudis/director <br/><br/>
-                <input type="checkbox"> Retirada d'aparells electrònics <a href="#uno">(1)</a> <br/><br/>
-                <input type="checkbox"> Privació del temps de recreació els dies: <input type="text"><br/><br/>
+                    <input name="mesura1" type="checkbox"> Compareixença davant el cap d'estudis/director <br /><br />
+                    <input name="mesura2" type="checkbox"> Retirada d'aparells electrònics <a href="#uno">(1)</a> <br /><br />
+                    <input name="mesura3" type="checkbox"> Privació del temps de recreació els dies: <input type="text"><br /><br />
 
-                <input type="checkbox"> Realització de les següents tasques educadores:
-                <select value="0">
-                        <option value="0">--</option> 
-                        <option value="1">Limpiar</option> 
+                    <input name="tasques" type="checkbox"> Realització de les següents tasques educadores:
+                    <select value="0">
+                        <option value="0">--</option>
+                        <option value="1">Limpiar</option>
                         <option value="2">Fregar</option>
-                        <option value="3">Barrer</option> 
-                     </select>
-                 els dies <input type="text"> i amb l'horari <input type="text"><br/><br/>
-                <input type="checkbox"> Suspensió del det a participar en activitats extraescolars i complementàries des de <input type="date">
-                fins a <input type="date"> <a href="#dos">(2)</a> <br/>
+                        <option value="3">Barrer</option>
+                    </select>
+                    els dies <input name="dias" type="text"> i amb l'horari <input name="horas" type="text"><br /><br />
+                    <input name="mesura4" type="checkbox"> Suspensió del det a participar en activitats extraescolars i
+                    complementàries
+                    des de <input name="diaInicio" type="date">
+                    fins a <input name="diaFin" type="date"> <a href="#dos">(2)</a> <br />
 
-                <p>Descripció de l'incident:</p>
-                <textarea rows="4" cols="50"></textarea>
-                
-                <br/>
-                <p>Tipificació <a href="#tres">(3)</a> de l'incident segons l'article 35:</p>
-                <textarea rows="2" cols="50"></textarea>
+                    <br />
+                    <p>Tipificació <a href="#tres">(3)</a> de l'incident segons l'article 35:</p>
+                    <textarea rows="2" cols="50"></textarea>
                 </div>
 
-                <br/>
-                <button id="enviar" type="submit">Enviar</button>
+                <br />
+                <input id="enviar" onsubmit="return onSubmit(this)" type="submit">
 
-                <br/>
-                <hr/>
-                <br/>
+                <br />
+                <hr />
+                <br />
                 <div class="mesura">
-                <p id="uno">(1) El pare o la mare de l'alumne podrá retirar l'aparell a partir del dia següent de rebre esta notificació en la direcció d'estudis.</p>
-                <p id="dos">(2) El pare o la mare de l'alumne disposa d'un termini de 10 dies a partir de rebre esta comunicació per al preceptiu trámit d'audiència amb el professor
-                    que ha imposat la mesura correctora. </p>
-                <p id="tres">(3) Tipificació:</p>
-                <ol type="a">
-                    <li>Les faltes de puntualitat injustificades</li>
-                    <li>Les faltes d'assistència injustificades</li>
-                    <li>Els actes que alteren el normal desenvolupament de les activitats del centre educatiu, especialment els que alteren el normal desenvolupament de les classes</li>
-                    <li>Els actes d'indisciplina</li>
-                    <li>Els actes d'incorreció o desconsideració, les injúries i les ofenses contra els membres de la comunitat educativa</li>
-                    <li>El furt o deteriorament intencionat d'inmobles, materials, documentació o recursos del centre</li>
-                    <li>El furt o deteriorament intencionat dels béns o materials dels membres de la comunitat educativa</li>
-                    <li>Les accions que puguen ser perjudicials per a la integritat i la salut dels membres de la comunitat educativa</li>
-                    <li>La negativa sistemàtica a portar el material necessari per al desenvolupament del procés d'ensenyament-aprenentatge</li>
-                    <li>La negativa a traslladar la informació facilitada als pares, mares, tutors o tutores per part del centre i viceversa</li>
-                    <li>L'alteració o manipulació de la documentació facilitada als pares, mares, tutors o tutores per part del centre</li>
-                    <li>La suplantació de la personalitat dels membres de la comunitat escolar.</li>
-                    <li>La utilització inadequada de les tecnologies de la informació i comunicació durant les activitats que es realitzen al centre educatiu</li>
-                    <li>L'ús de telèfons mòbils, aparells de so i altres aparells electrònics aliens al procés d'ensenyament-aprenentatge. Durant les activitats que es realitzen al centre educatiu</li>
-                    <li>Els actes que dificulten o impedisquen el dret i el deure d l'estudi dels seus companys i companyes</li>
-                    <li>La incitació o estímul a cometre una falta contrària a les normes de convivència.</li>
-                    <li>La negativa al compliment de les mesures correctores adoptades davant de conductes contràries a les normes de convivència</li>
-                    <li>L'ús inadequat de les infraestructures i béns o equips materials del centre</li>
-                    <li>La desobediència en el compliment de les normes de caràcter propi del centre i que estiguen incloses en el seu projecte educatiu</li>
-               </ol>
-               </div>
-               <a id="subir" href="#arriba">Pujar</a>
+                    <p id="uno">(1) El pare o la mare de l'alumne podrá retirar l'aparell a partir del dia següent de
+                        rebre
+                        esta notificació en la direcció d'estudis.</p>
+                    <p id="dos">(2) El pare o la mare de l'alumne disposa d'un termini de 10 dies a partir de rebre
+                        esta
+                        comunicació per al preceptiu trámit d'audiència amb el professor
+                        que ha imposat la mesura correctora. </p>
+                    <p id="tres">(3) Tipificació:</p>
+                    <ol type="a">
+                        <li>Les faltes de puntualitat injustificades</li>
+                        <li>Les faltes d'assistència injustificades</li>
+                        <li>Els actes que alteren el normal desenvolupament de les activitats del centre educatiu,
+                            especialment els que alteren el normal desenvolupament de les classes</li>
+                        <li>Els actes d'indisciplina</li>
+                        <li>Els actes d'incorreció o desconsideració, les injúries i les ofenses contra els membres de
+                            la
+                            comunitat educativa</li>
+                        <li>El furt o deteriorament intencionat d'inmobles, materials, documentació o recursos del
+                            centre</li>
+                        <li>El furt o deteriorament intencionat dels béns o materials dels membres de la comunitat
+                            educativa</li>
+                        <li>Les accions que puguen ser perjudicials per a la integritat i la salut dels membres de la
+                            comunitat educativa</li>
+                        <li>La negativa sistemàtica a portar el material necessari per al desenvolupament del procés
+                            d'ensenyament-aprenentatge</li>
+                        <li>La negativa a traslladar la informació facilitada als pares, mares, tutors o tutores per
+                            part
+                            del centre i viceversa</li>
+                        <li>L'alteració o manipulació de la documentació facilitada als pares, mares, tutors o tutores
+                            per
+                            part del centre</li>
+                        <li>La suplantació de la personalitat dels membres de la comunitat escolar.</li>
+                        <li>La utilització inadequada de les tecnologies de la informació i comunicació durant les
+                            activitats que es realitzen al centre educatiu</li>
+                        <li>L'ús de telèfons mòbils, aparells de so i altres aparells electrònics aliens al procés
+                            d'ensenyament-aprenentatge. Durant les activitats que es realitzen al centre educatiu</li>
+                        <li>Els actes que dificulten o impedisquen el dret i el deure d l'estudi dels seus companys i
+                            companyes</li>
+                        <li>La incitació o estímul a cometre una falta contrària a les normes de convivència.</li>
+                        <li>La negativa al compliment de les mesures correctores adoptades davant de conductes
+                            contràries a
+                            les normes de convivència</li>
+                        <li>L'ús inadequat de les infraestructures i béns o equips materials del centre</li>
+                        <li>La desobediència en el compliment de les normes de caràcter propi del centre i que estiguen
+                            incloses en el seu projecte educatiu</li>
+                    </ol>
+                    <a id="subir" href="#arriba">Pujar</a>
+                </div>
             </div>
-            </form>
-            
-        </div>
+            <div id="formulario2" class="form-group">
+                <label for="tipificacion">Tipificació (1) de l'indicent segons l'article 42:</label>
+                <select name="tipificacion" class="col-sm-12" id="tipificacion" multiple>
+                    <option value="1">Els actes greus d'indisciplina i les injuries i ofenses contra membres de la
+                        comunitat educativa que sobrepassen incorrecció o la desconsideració previstes en el article
+                        35.</option>
+                    <option value="2">L'agressio fisica o moral, les amenaces i coaccions i la discriminacio greu a
+                        qualsevol membre de la comunitat educativa, aixi com la falta de respecte grey a la integritat
+                        i dignitat personal.</option>
+                    <option value="3">Les vexacio i humillacions a qualsevol membre de la comunitat escolar,
+                        particularment si tenen un comportament sexista o xenòfon, aixi com les que es realitzen contra
+                        els members mes vulnerables per les seues caracteristiques personals, socials o educatives.</option>
+                    <option value="4">L'assetjament escolar.</option>
+                    <option value="5">La suplantació de personalitat en actes de la vida docent.</option>
+                    <option value="6">La falsificacio, el detoriorament o la sustracció de documentació academica</option>
+                    <option value="7">Els danys greys causats en el locals, materials o documents del centro o ens el
+                        bens dels membres de la comunitat educativa.</option>
+                    <option value="8">Els actes injustificats que pertorben greument el normal desenvolupament del
+                        centre o ens el bens dels members de la comunitat educativa.</option>
+                    <option value="9">Les actuacions que purguen perjudicar perjudiquen greument la salut i la
+                        integritat personal dels members de la comunitat educativa.</option>
+                    <option value="10">La introduccio en el centre d'objectes perillosos o substancies perjudicals per
+                        a la salut i la integritat personal dels members de la comunitat educativa</option>
+                    <option value="11">Les conductes tipificades com a contraries a les normes de convivència del
+                        centre educatiu si concorren circumstancies del col·lectiu o publicitat intencionada per
+                        qualsevol mitja</option>
+                    <option value="12">La incitacio o l'estimul a cometre una falta que afecte greument la convicencia
+                        en el centre</option>
+                    <option value="13">La negativa reiterada al compliment de les mesures educatives correctores
+                        adoptades davant de faltes que afecten greument a la convicencia en el centre</option>
+                    <option value="14">L'acces indegut o sense autoritzacio a fitxers i servidors del centre</option>
+                    <option value="15">Actes atemptatoris respecte al projecte educatiu, aixi com al caracter propi del
+                        centre</option>
+                </select>
+                <a id="subir" href="#arriba">Pujar</a>
+            </div>
 
-        <script>
-            $(function () {
-            $("#data").datepicker();
-            });
-            </script>
-    </body>
+        </form>
+    </div>
+
+</body>
+
 </html>
