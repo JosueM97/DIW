@@ -1,0 +1,122 @@
+#divGrande{
+   
+    height: 300%;
+}
+
+h2{
+    padding-top: 2%;
+    margin-left: 34%;
+}
+
+form{
+    height: 100%;
+}
+
+#conselleria{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+#senia{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+table{
+    margin-left: 12%;
+}
+
+td{
+padding-bottom: 2%;
+padding-right: 10%;
+text-align: center;
+}
+
+
+.campos{
+    float: left;
+    margin-left: 4%;
+}
+
+#alumne{
+    float: left;
+    margin-left: 10%;
+}
+#grup{
+    float: left;
+    margin-left: 6.5%;
+}
+#professor{
+    float: left;
+    margin-left: 3%;
+}
+#horari{
+    float: left;
+    margin-left: 2%;
+}
+#data{
+    float: left;
+    margin-left: 13%;
+}
+#hora{
+    float: left;
+    margin-left: 2%;
+}
+#lloc{
+    float: left;
+    margin-left: 8.5%;
+}
+.mesura{
+    margin-left: 8%;
+}
+
+hr{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#subir{
+    float: right;
+    margin-right: 8%;
+    margin-bottom: 2%;
+}
+
+.enviar{
+    margin-left: 50%;
+}
+
+
+#tipoFormulario{
+    position: relative;
+    left: 35%;
+}
+
+#lleu{
+    position: relative;
+    left: 40%;
+}
+#greu{
+    position: relative;
+    left: 43%;
+}
+
+#formulario1,#formulario2{
+    visibility: hidden;
+}
+
+#descripcio{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#descripcio p{
+    margin-left: 14%;
+}
+
+#formulario2{
+    position: absolute;
+    top: 110%;
+    z-index: 5;
+}
