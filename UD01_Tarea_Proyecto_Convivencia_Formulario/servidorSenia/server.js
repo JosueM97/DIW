@@ -33,7 +33,7 @@ mongoose.connect(dbConfig.url,{
 
 // Vamos a definir un "punto de inicio"
 app.get('/',(req,res)=>{
-    res.json({"message":"Parte Backend de nuestro programa"});
+    res.sendFile(__dirname+'/public/index.html');
 });
 
 // Require Investigadores routes

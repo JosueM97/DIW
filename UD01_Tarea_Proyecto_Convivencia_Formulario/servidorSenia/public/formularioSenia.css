@@ -58,15 +58,15 @@ text-align: center;
 }
 #data{
     float: left;
-    margin-left: 13%;
+    margin-left: 13.5%;
 }
 #hora{
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 #lloc{
     float: left;
-    margin-left: 8.5%;
+    margin-left: 8.2%;
 }
 .mesura{
     margin-left: 8%;
@@ -107,12 +107,12 @@ hr{
 }
 
 #descripcio{
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top: 2%;
 }
 
 #descripcio p{
-    margin-left: 14%;
+    margin-left: 15%;
 }
 
 #formulario2{

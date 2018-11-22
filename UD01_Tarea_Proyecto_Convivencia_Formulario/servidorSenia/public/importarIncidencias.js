@@ -1,7 +1,7 @@
 $.getJSON("http://localhost:3000/incidencias", function (data) {
   var items = [];
   $.each(data, function (key, val) {
-    console.log(key);
+    console.log(key + val.nombreAlumno);
     items.push("<tr><td> " + val.nombreAlumno + "</td></tr>");
   });
 
