@@ -1,0 +1,64 @@
+.divAzul{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color:#0099ff;
+    width: 1300px;
+    height: 150px;
+    color:#00ffff;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+.tituloAlumno{
+float: left;
+position: relative;
+top: 20%;
+left: 10%;
+}
+
+.tituloProfesor{
+float: left;
+position: relative;
+top: 3%;
+left: 40%;
+}
+
+.tituloFecha{
+float: left;
+position: relative;
+top: -15%;
+left: 70%;
+}
+
+.divAlumno{
+    position: relative;
+    left: 30px;
+    top: 3%;
+    float: left;
+}
+
+.divProfesor{
+    position: relative;
+    left: 35%;
+    top: -15%;
+    float: left;
+}
+
+.divFecha{
+    position: relative;
+    left: 68%;
+    top: -35%;
+    float: left;
+}
+
+.flecha{
+    width: 3%;
+    position: relative;
+    top: -40%;
+    left: 94%;
+}
+
