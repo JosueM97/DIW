@@ -44,6 +44,9 @@ $.getJSON("http://localhost:3000/incidencias", function (data) {
       items.push("<img class=flecha src=flecha.jpg>");
     items.push("</div>");
 
+    items.push("<div class=subDiv visibility: hidden>");
+    items.push("</div>");
+
   });
 
 
