@@ -10,9 +10,11 @@ function cargar() {
 
 
     console.log(arrayFlechas.length);
+
     for (var i = 0; i < arrayFlechas.length; i++){
         console.log(i);
         arrayFlechas[i].addEventListener("click",desplegar.bind(this,i));
+        
     }
 }
 
