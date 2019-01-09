@@ -1,0 +1,27 @@
+.alumno{
+    border: 1px solid purple;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 800px){
+    .container{
+        justify-content: flex-end;
+    }
+}
+
+/*Hasta 500 px solo 1 columna*/
+@media only screen and (max-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+}
