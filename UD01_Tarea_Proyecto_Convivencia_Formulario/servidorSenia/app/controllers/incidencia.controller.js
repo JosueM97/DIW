@@ -12,6 +12,7 @@ exports.create = (req,res)=>{
     }
 
     const incidencia = new Incidencia({
+        grupo: req.body.grupo || "Sin grupo",
         nombreAlumno: req.body.nombreAlumno || "Sin Nombre Alumno",
         nombreProfesor: req.body.nombreProfesor || "Sin Nombre Profesor",
         horario: req.body.horario|| "Sin horario",

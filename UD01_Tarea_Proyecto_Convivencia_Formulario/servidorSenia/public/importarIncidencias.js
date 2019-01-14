@@ -57,8 +57,16 @@ $.getJSON("http://localhost:3000/incidencias", function (data) {
 
 
     items.push("<button class=seleccionador3> Informacion Mesura</button>");
- 
       //---------------
+
+    //SUB-APARTADOS------
+
+    //
+      items.push("<div class=SAGrupo>");
+      items.push(val.grupo);
+      items.push("</div>");
+      
+      
 
 
     
