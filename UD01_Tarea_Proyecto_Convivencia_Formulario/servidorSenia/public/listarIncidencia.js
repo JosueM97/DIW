@@ -5,7 +5,7 @@ var arrayFlechas=[];
 
 function cargar() {
     console.log("EEEE");
-    arrayFlechas = document.getElementsByClassName("flecha");
+    arrayFlechas = document.getElementsByClassName("");
     arraySubDivs = document.getElementsByClassName("subDiv");
 
 
@@ -13,13 +13,13 @@ function cargar() {
 
     for (var i = 0; i < arrayFlechas.length; i++){
         console.log(i);
-        arrayFlechas[i].addEventListener("click",desplegar.bind(this,i));
+        arrayFlechas[i].addEventListener("click",desplegar());
         
     }
 }
 
-function desplegar(cambiar){
-    console.log(cambiar);
+function desplegar(){
+    console.log("AAA");
 
     var estiloActual = arraySubDivs[cambiar].style.display;
 
